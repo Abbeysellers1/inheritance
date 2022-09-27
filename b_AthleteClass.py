@@ -4,7 +4,7 @@ class Athlete:
         self.__ht = ht
         self.__wt = wt
         self.__bf = bodyfat
-
+#height weight and bodyfat are the attributes
     def get_ht(self):
         return self.__ht
 
@@ -15,8 +15,10 @@ class Athlete:
         return self.__bf
 
 
+#football player si a special type of athlete, inherits fromt he athlete superclass
 
 class Football_Player(Athlete):
+#expecting the user to give the same attributes as athlete but have add specific ones for football player
 
     def __init__(self,ht,wt,bodyfat,position,team):
 
